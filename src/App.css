@@ -1,0 +1,105 @@
+/* src/App.css */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn’t affect centering */
+}
+
+/* components/SignUpForm.css */
+
+.signup-form {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.signup-form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.signup-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.signup-form input {
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.signup-form .error {
+  color: red;
+  font-size: 14px;
+}
+
+.signup-form button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #0056b3;
+}
+
+/* components/Authenticate.css */
+
+.authenticate {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.authenticate h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.authenticate .success {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.authenticate .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.authenticate button {
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.authenticate button:hover {
+  background-color: #218838;
+}
+
+/* src/App.css */
